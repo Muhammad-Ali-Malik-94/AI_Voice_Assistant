@@ -1,0 +1,51 @@
+Project Report — Voice-Controlled Assistant App
+
+Author: (Ali)
+
+---
+
+🧠 Project Overview:
+My goal is to build a voice-controlled assistant app using Flutter. This app should be able to set alarms/schedule tasks, manage daily schedules, and give intelligent responses using Google's Gemini API (more features to be added, so while building the app we need to make it flexiable). One of the key goals is to build the entire application with $0 investment — utilizing only free tools, services, and tiers available.
+
+---
+
+🎯 Plan Summary:
+
+Frontend (Flutter):
+- Created using Flutter.
+- Runs on Android Virtual Device (emulator).
+- Handles voice input via `speech_to_text` plugin.
+- Interacts with the backend for AI responses and commands.
+
+Backend:
+- Hybrid system combining Firebase + Python backend.
+- Firebase Auth for authentication.
+- Firestore for real-time data storage.
+- Python backend (hosted on Google Cloud Run) to handle custom logic and Gemini API requests.
+
+Authentication Flow:
+- Firebase issues ID token after login.
+- Token is passed to Python backend per request to verify the user.
+
+---
+
+
+⚙️ Technologies & Services Used (Free Tiers Only):
+
+| Layer         | Tool/Service         | Description |
+|---------------|----------------------|-------------|
+| UI            | Flutter              | Cross-platform mobile framework |
+| Voice Input   | speech_to_text       | Flutter plugin for voice |
+| Auth          | Firebase Auth        | Handles secure login |
+| Database      | Firestore            | Real-time NoSQL database |
+| Backend Logic | Python on Cloud Run  | Custom logic & AI handling |
+| AI            | Gemini API           | Google’s conversational AI |
+| Monitoring    | UptimeRobot 	       | For free app uptime monitoring |
+
+---
+
+💡 Notes:
+- Using Android emulator instead of physical phone for testing (pixel 6 android 13.0).
+- All services chosen with the aim of staying within the free tier.
+- Token verification happens per request but can be optimized later for best performance.
+

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "417035149751",
+    "project_id": "ai-assistant-94",
+    "storage_bucket": "ai-assistant-94.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417035149751:android:1802cbd8a191d7b1690832",
+        "android_client_info": {
+          "package_name": "com.example.my_app_gemini"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd00baKupmWHatVySgADTmGoOXkVlmg9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

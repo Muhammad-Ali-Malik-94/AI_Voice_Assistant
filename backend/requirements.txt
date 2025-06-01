@@ -1,0 +1,4 @@
+flask==2.3.3
+functions-framework==3.4.0
+google-cloud-aiplatform>=1.36.0
+vertexai>=1.71.0

@@ -1,0 +1,17 @@
+# Delete existing .gitignore
+del .gitignore
+
+# Create new .gitignore with all necessary exclusions
+echo # Sensitive Files > .gitignore
+echo backend/key.json >> .gitignore
+echo backend/.env >> .gitignore
+echo android/app/google-services.json >> .gitignore
+echo ios/Runner/GoogleService-Info.plist >> .gitignore
+echo firebase.json >> .gitignore
+echo # Flutter/Dart >> .gitignore
+echo .dart_tool/ >> .gitignore
+echo .flutter-plugins >> .gitignore
+echo .flutter-plugins-dependencies >> .gitignore
+echo build/ >> .gitignore
+echo .idea/ >> .gitignore
+echo .vscode/ >> .gitignore
